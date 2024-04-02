@@ -1,6 +1,6 @@
-# Public-Custom-Loader
+# Public-Loader-Tools
 
-The source code provided in these repositories is uploaded as it is and is not obfuscated for operational deployment. This is an operator task. All code provided is intend for educational purpose only.
+The source code provided in these repositories is uploaded as is and its not obfuscated for operational deployment. This is an operator task. All code provided is intend for educational purpose only.
 
 Have fun cheers!
 
@@ -9,3 +9,4 @@ Have fun cheers!
 3) AES-DEFCON-DInvoke
 4) DLL-Injection - Havoc C2
 5) Injection-AES
+6) Etc
