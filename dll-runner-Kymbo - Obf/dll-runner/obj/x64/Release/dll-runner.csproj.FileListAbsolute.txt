@@ -1,0 +1,20 @@
+C:\Users\fmariani1\source\repos\dll-runner\dll-runner\bin\x64\Release\dll-runner.dll
+C:\Users\fmariani1\source\repos\dll-runner\dll-runner\bin\x64\Release\dll-runner.pdb
+C:\Users\fmariani1\source\repos\dll-runner\dll-runner\obj\x64\Release\dll-runner.csproj.AssemblyReference.cache
+C:\Users\fmariani1\source\repos\dll-runner\dll-runner\obj\x64\Release\dll-runner.csproj.CoreCompileInputs.cache
+C:\Users\fmariani1\source\repos\dll-runner\dll-runner\obj\x64\Release\dll-runner.dll
+C:\Users\fmariani1\source\repos\dll-runner\dll-runner\obj\x64\Release\dll-runner.pdb
+C:\Users\fmariani1\source\repos\dll-runner-Kymbo\dll-runner\bin\x64\Release\dll-runner.exe
+C:\Users\fmariani1\source\repos\dll-runner-Kymbo\dll-runner\bin\x64\Release\dll-runner.pdb
+C:\Users\fmariani1\source\repos\dll-runner-Kymbo\dll-runner\obj\x64\Release\dll-runner.csproj.AssemblyReference.cache
+C:\Users\fmariani1\source\repos\dll-runner-Kymbo\dll-runner\obj\x64\Release\dll-runner.csproj.SuggestedBindingRedirects.cache
+C:\Users\fmariani1\source\repos\dll-runner-Kymbo\dll-runner\obj\x64\Release\dll-runner.csproj.CoreCompileInputs.cache
+C:\Users\fmariani1\source\repos\dll-runner-Kymbo\dll-runner\obj\x64\Release\dll-runner.exe
+C:\Users\fmariani1\source\repos\dll-runner-Kymbo\dll-runner\obj\x64\Release\dll-runner.pdb
+C:\Users\fmariani1\source\repos\dll-runner-Kymbo - Obf\dll-runner\bin\x64\Release\dll-runner.exe
+C:\Users\fmariani1\source\repos\dll-runner-Kymbo - Obf\dll-runner\bin\x64\Release\dll-runner.pdb
+C:\Users\fmariani1\source\repos\dll-runner-Kymbo - Obf\dll-runner\obj\x64\Release\dll-runner.csproj.AssemblyReference.cache
+C:\Users\fmariani1\source\repos\dll-runner-Kymbo - Obf\dll-runner\obj\x64\Release\dll-runner.csproj.SuggestedBindingRedirects.cache
+C:\Users\fmariani1\source\repos\dll-runner-Kymbo - Obf\dll-runner\obj\x64\Release\dll-runner.csproj.CoreCompileInputs.cache
+C:\Users\fmariani1\source\repos\dll-runner-Kymbo - Obf\dll-runner\obj\x64\Release\dll-runner.exe
+C:\Users\fmariani1\source\repos\dll-runner-Kymbo - Obf\dll-runner\obj\x64\Release\dll-runner.pdb

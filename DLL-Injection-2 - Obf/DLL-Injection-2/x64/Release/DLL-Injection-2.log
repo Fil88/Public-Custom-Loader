@@ -1,0 +1,21 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\DLL-Injection-2\dllmain.cpp(42,25): warning C4838: la conversione da 'int' a 'char' richiede una conversione che supporta un minor numero di dati
+C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\DLL-Injection-2\dllmain.cpp(42,25): warning C4309: 'inizializzazione': troncamento di valore costante
+C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\DLL-Injection-2\dllmain.cpp(42,31): warning C4838: la conversione da 'int' a 'char' richiede una conversione che supporta un minor numero di dati
+C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\DLL-Injection-2\dllmain.cpp(42,31): warning C4309: 'inizializzazione': troncamento di valore costante
+C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\DLL-Injection-2\dllmain.cpp(42,54): warning C4838: la conversione da 'int' a 'char' richiede una conversione che supporta un minor numero di dati
+C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\DLL-Injection-2\dllmain.cpp(42,54): warning C4309: 'inizializzazione': troncamento di valore costante
+C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\DLL-Injection-2\dllmain.cpp(42,72): warning C4838: la conversione da 'int' a 'char' richiede una conversione che supporta un minor numero di dati
+C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\DLL-Injection-2\dllmain.cpp(42,72): warning C4309: 'inizializzazione': troncamento di valore costante
+C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\DLL-Injection-2\dllmain.cpp(42,84): warning C4838: la conversione da 'int' a 'char' richiede una conversione che supporta un minor numero di dati
+C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\DLL-Injection-2\dllmain.cpp(42,84): warning C4309: 'inizializzazione': troncamento di valore costante
+C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\DLL-Injection-2\dllmain.cpp(42,102): warning C4838: la conversione da 'int' a 'char' richiede una conversione che supporta un minor numero di dati
+C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\DLL-Injection-2\dllmain.cpp(42,102): warning C4309: 'inizializzazione': troncamento di valore costante
+dllmain.obj : warning LNK4104: l'esportazione del simbolo 'DllRegisterServer' dovrebbe essere di tipo PRIVATE
+     Creazione della libreria C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\x64\Release\DLL-Injection-2.lib e dell'oggetto C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\x64\Release\DLL-Injection-2.exp
+  Generazione codice in corso...
+  Previous IPDB not found, fall back to full compilation.
+  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generazione codice terminata
+  DLL-Injection-2.vcxproj -> C:\Users\fmariani1\source\repos\DLL-Injection-2 - Obf\x64\Release\DLL-Injection-2.dll

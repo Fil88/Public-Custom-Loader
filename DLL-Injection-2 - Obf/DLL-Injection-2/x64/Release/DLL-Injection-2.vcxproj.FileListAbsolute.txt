@@ -1,0 +1,2 @@
+C:\Users\fmariani1\source\repos\DLL-Injection-2\x64\Release\DLL-Injection-2.dll.lastcodeanalysissucceeded
+C:\Users\fmariani1\source\repos\DLL-Injection-2\DLL-Injection-2\x64\Release\NativeCodeAnalysis.read.1.tlog

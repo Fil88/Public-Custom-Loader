@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "DInvoke/1.0.4": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "DInvoke/1.0.4": {
+      "sha512": "oxncKPfjcr1/6LQO6ndducvxKh4zEM7Dm/s3wMS8RTlTSilClfZcbykykPzY0+kdphfTZU+ekzdDCqOOlhP7gg==",
+      "type": "package",
+      "path": "dinvoke/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dinvoke.1.0.4.nupkg.sha512",
+        "dinvoke.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "DInvoke >= 1.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\fmariani1\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\fmariani1\\source\\repos\\aes_dinvoke\\aes_dinvoke\\aes_dinvoke.csproj",
+      "projectName": "aes_dinvoke",
+      "projectPath": "C:\\Users\\fmariani1\\source\\repos\\aes_dinvoke\\aes_dinvoke\\aes_dinvoke.csproj",
+      "packagesPath": "C:\\Users\\fmariani1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fmariani1\\source\\repos\\aes_dinvoke\\aes_dinvoke\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\fmariani1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "DInvoke": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

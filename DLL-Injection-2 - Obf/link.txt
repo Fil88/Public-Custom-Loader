@@ -1,0 +1,1 @@
+https://github.com/gemini-security/Bypass-Windows-Defender-with-CPP-.DLL-Payload-File---Meterpreter-Reverse-Shell

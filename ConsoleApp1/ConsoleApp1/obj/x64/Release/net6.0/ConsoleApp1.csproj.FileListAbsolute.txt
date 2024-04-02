@@ -1,0 +1,15 @@
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\bin\x64\Release\net6.0\ConsoleApp1.exe
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\bin\x64\Release\net6.0\ConsoleApp1.deps.json
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\bin\x64\Release\net6.0\ConsoleApp1.runtimeconfig.json
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\bin\x64\Release\net6.0\ConsoleApp1.dll
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\bin\x64\Release\net6.0\ConsoleApp1.pdb
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\obj\x64\Release\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\obj\x64\Release\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\obj\x64\Release\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\obj\x64\Release\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\obj\x64\Release\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\obj\x64\Release\net6.0\ConsoleApp1.dll
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\obj\x64\Release\net6.0\refint\ConsoleApp1.dll
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\obj\x64\Release\net6.0\ConsoleApp1.pdb
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\obj\x64\Release\net6.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\fmariani1\source\repos\ConsoleApp1\ConsoleApp1\obj\x64\Release\net6.0\ref\ConsoleApp1.dll

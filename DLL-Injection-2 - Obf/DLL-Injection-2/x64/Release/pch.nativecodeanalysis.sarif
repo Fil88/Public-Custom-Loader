@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/fmariani1/source/repos/dll-injection-2/dll-injection-2/pch.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "93afb1850ba43c201223c181614883e51f4ed5bd2a6ba92122d52bb9ef5b2dbf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/fmariani1/source/repos/dll-injection-2/dll-injection-2/pch.h"
+          },
+          "hashes": {
+            "sha-256": "ef24c60cdaa845ae054b558a31fc2b0e18fa2ec1c4bf9e983ec060b0c0ae4871"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/fmariani1/source/repos/dll-injection-2/dll-injection-2/framework.h"
+          },
+          "hashes": {
+            "sha-256": "2ad0ec888d1428063396691079fb7dd2a3c09ca2b0ae37312abe6d5d1e245225"
+          }
+        }
+      ]
+    }
+  ]
+}

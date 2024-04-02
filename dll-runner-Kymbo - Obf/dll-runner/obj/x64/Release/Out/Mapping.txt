@@ -1,0 +1,354 @@
+Renamed Types:
+
+[dll-runner]뼫.뼫 -> [dll-runner]깦.깦
+{
+	뼫.뼫/뽤 [dll-runner]뼫.뼫/뽤 뼫.뼫::뽤 -> 깤
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뼤 -> 긓
+	뼫.뼫/뼥 [dll-runner]뼫.뼫/뼥 뼫.뼫::뼥 -> 깍
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뼬 -> 귽
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뼞 -> 깥
+	뼫.뼫/뼤 [dll-runner]뼫.뼫/뼤 뼫.뼫::뽫 -> 귶
+	뼫.뼫/뽤 [dll-runner]뼫.뼫/뽤 뼫.뼫::뽣 -> 긷
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뼝 -> 귺
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뽡 -> 긂
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뼺 -> 깝
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뼨 -> 깕
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뽳 -> 긎
+	뼫.뼫/뽤 [dll-runner]뼫.뼫/뽤 뼫.뼫::뼵 -> 금
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뽈 -> 깇
+	뼫.뼫/뽤 [dll-runner]뼫.뼫/뽤 뼫.뼫::뽍 -> 긥
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뾂 -> 깉
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뼭 -> 긇
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뼢 -> 긹
+	뼫.뼫/뽤 [dll-runner]뼫.뼫/뽤 뼫.뼫::뼣 -> 깂
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뽞 -> 길
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뽄 -> 긗
+	뼫.뼫/뼫 [dll-runner]뼫.뼫/뼫 뼫.뼫::뾔 -> 근
+	뼫.뼫/뽇 [dll-runner]뼫.뼫/뽇 뼫.뼫::뼯 -> 긒
+}
+
+[dll-runner]ClassName.Class1/뽈 -> [dll-runner]ClassName.Class1/깇
+{
+
+	[dll-runner]ClassName.Class1/뽈::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/뽈::Invoke[0]( ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/뽈::BeginInvoke[2]( [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/뽈::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]뼫.뼫/뼫 -> [dll-runner]깦.깦/깦
+{
+}
+
+[dll-runner]뼫.뼫/뽇 -> [dll-runner]깦.깦/긫
+{
+}
+
+[dll-runner]뼫.뼫/뽤 -> [dll-runner]깦.깦/깤
+{
+}
+
+[dll-runner]뼫.뼫/뼤 -> [dll-runner]깦.깦/긓
+{
+}
+
+[dll-runner]뼫.뼫/뼥 -> [dll-runner]깦.깦/깍
+{
+}
+
+Skipped Types:
+
+[dll-runner]IMAGE_DATA_DIRECTORY skipped:  KeepPublicApi option in configuration
+{
+
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_DATA_DIRECTORY::VirtualAddress skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_DATA_DIRECTORY::Size skipped:  KeepPublicApi option in configuration
+}
+
+[dll-runner]IMAGE_OPTIONAL_HEADER64 skipped:  KeepPublicApi option in configuration
+{
+
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_OPTIONAL_HEADER64::Magic skipped:  KeepPublicApi option in configuration
+	System.Byte [dll-runner]System.Byte IMAGE_OPTIONAL_HEADER64::MajorLinkerVersion skipped:  KeepPublicApi option in configuration
+	System.Byte [dll-runner]System.Byte IMAGE_OPTIONAL_HEADER64::MinorLinkerVersion skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_OPTIONAL_HEADER64::SizeOfCode skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_OPTIONAL_HEADER64::SizeOfInitializedData skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_OPTIONAL_HEADER64::SizeOfUninitializedData skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_OPTIONAL_HEADER64::AddressOfEntryPoint skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_OPTIONAL_HEADER64::BaseOfCode skipped:  KeepPublicApi option in configuration
+	System.UInt64 [dll-runner]System.UInt64 IMAGE_OPTIONAL_HEADER64::ImageBase skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_OPTIONAL_HEADER64::SectionAlignment skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_OPTIONAL_HEADER64::FileAlignment skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_OPTIONAL_HEADER64::MajorOperatingSystemVersion skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_OPTIONAL_HEADER64::MinorOperatingSystemVersion skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_OPTIONAL_HEADER64::MajorImageVersion skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_OPTIONAL_HEADER64::MinorImageVersion skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_OPTIONAL_HEADER64::MajorSubsystemVersion skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_OPTIONAL_HEADER64::MinorSubsystemVersion skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_OPTIONAL_HEADER64::Win32VersionValue skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_OPTIONAL_HEADER64::SizeOfImage skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_OPTIONAL_HEADER64::SizeOfHeaders skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_OPTIONAL_HEADER64::CheckSum skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_OPTIONAL_HEADER64::Subsystem skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_OPTIONAL_HEADER64::DllCharacteristics skipped:  KeepPublicApi option in configuration
+	System.UInt64 [dll-runner]System.UInt64 IMAGE_OPTIONAL_HEADER64::SizeOfStackReserve skipped:  KeepPublicApi option in configuration
+	System.UInt64 [dll-runner]System.UInt64 IMAGE_OPTIONAL_HEADER64::SizeOfStackCommit skipped:  KeepPublicApi option in configuration
+	System.UInt64 [dll-runner]System.UInt64 IMAGE_OPTIONAL_HEADER64::SizeOfHeapReserve skipped:  KeepPublicApi option in configuration
+	System.UInt64 [dll-runner]System.UInt64 IMAGE_OPTIONAL_HEADER64::SizeOfHeapCommit skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_OPTIONAL_HEADER64::LoaderFlags skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_OPTIONAL_HEADER64::NumberOfRvaAndSizes skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::ExportTable skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::ImportTable skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::ResourceTable skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::ExceptionTable skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::CertificateTable skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::BaseRelocationTable skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::Debug skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::Architecture skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::GlobalPtr skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::TLSTable skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::LoadConfigTable skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::BoundImport skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::IAT skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::DelayImportDescriptor skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::CLRRuntimeHeader skipped:  KeepPublicApi option in configuration
+	IMAGE_DATA_DIRECTORY [dll-runner]IMAGE_DATA_DIRECTORY IMAGE_OPTIONAL_HEADER64::Reserved skipped:  KeepPublicApi option in configuration
+}
+
+[dll-runner]IMAGE_FILE_HEADER skipped:  KeepPublicApi option in configuration
+{
+
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_FILE_HEADER::Machine skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_FILE_HEADER::NumberOfSections skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_FILE_HEADER::TimeDateStamp skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_FILE_HEADER::PointerToSymbolTable skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_FILE_HEADER::NumberOfSymbols skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_FILE_HEADER::SizeOfOptionalHeader skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_FILE_HEADER::Characteristics skipped:  KeepPublicApi option in configuration
+}
+
+[dll-runner]IMAGE_DOS_HEADER skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]IMAGE_DOS_HEADER::get_isValid[0]( ) skipped:  skip by property
+	[dll-runner]IMAGE_DOS_HEADER::뼫[0]( ) skipped:  special name
+
+
+	System.Char[] [dll-runner]System.Char[] IMAGE_DOS_HEADER::e_magic skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_cblp skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_cp skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_crlc skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_cparhdr skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_minalloc skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_maxalloc skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_ss skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_sp skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_csum skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_ip skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_cs skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_lfarlc skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_ovno skipped:  KeepPublicApi option in configuration
+	System.UInt16[] [dll-runner]System.UInt16[] IMAGE_DOS_HEADER::e_res1 skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_oemid skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_DOS_HEADER::e_oeminfo skipped:  KeepPublicApi option in configuration
+	System.UInt16[] [dll-runner]System.UInt16[] IMAGE_DOS_HEADER::e_res2 skipped:  KeepPublicApi option in configuration
+	System.Int32 [dll-runner]System.Int32 IMAGE_DOS_HEADER::e_lfanew skipped:  KeepPublicApi option in configuration
+
+
+	System.Boolean [dll-runner]System.Boolean IMAGE_DOS_HEADER::isValid skipped:  KeepPublicApi option in configuration
+}
+
+[dll-runner]IMAGE_NT_HEADERS64 skipped:  KeepPublicApi option in configuration
+{
+
+	System.Int32 [dll-runner]System.Int32 IMAGE_NT_HEADERS64::Signature skipped:  KeepPublicApi option in configuration
+	IMAGE_FILE_HEADER [dll-runner]IMAGE_FILE_HEADER IMAGE_NT_HEADERS64::FileHeader skipped:  KeepPublicApi option in configuration
+	IMAGE_OPTIONAL_HEADER64 [dll-runner]IMAGE_OPTIONAL_HEADER64 IMAGE_NT_HEADERS64::OptionalHeader skipped:  KeepPublicApi option in configuration
+}
+
+[dll-runner]MODULEINFO skipped:  KeepPublicApi option in configuration
+{
+
+	System.IntPtr [dll-runner]System.IntPtr MODULEINFO::lpBaseOfDll skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 MODULEINFO::SizeOfImage skipped:  KeepPublicApi option in configuration
+	System.IntPtr [dll-runner]System.IntPtr MODULEINFO::EntryPoint skipped:  KeepPublicApi option in configuration
+}
+
+[dll-runner]IMAGE_SECTION_HEADER skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]IMAGE_SECTION_HEADER::get_Section[0]( ) skipped:  skip by property
+
+
+	System.Char[] [dll-runner]System.Char[] IMAGE_SECTION_HEADER::Name skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_SECTION_HEADER::VirtualSize skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_SECTION_HEADER::VirtualAddress skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_SECTION_HEADER::SizeOfRawData skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_SECTION_HEADER::PointerToRawData skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_SECTION_HEADER::PointerToRelocations skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_SECTION_HEADER::PointerToLinenumbers skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_SECTION_HEADER::NumberOfRelocations skipped:  KeepPublicApi option in configuration
+	System.UInt16 [dll-runner]System.UInt16 IMAGE_SECTION_HEADER::NumberOfLinenumbers skipped:  KeepPublicApi option in configuration
+	System.UInt32 [dll-runner]System.UInt32 IMAGE_SECTION_HEADER::Characteristics skipped:  KeepPublicApi option in configuration
+
+
+	System.String [dll-runner]System.String IMAGE_SECTION_HEADER::Section skipped:  KeepPublicApi option in configuration
+}
+
+[dll-runner]ClassName.Class1 skipped:  KeepPublicApi option in configuration
+{
+	[dll-runner]ClassName.Class1::뼫[2]( [mscorlib]System.String, [mscorlib]System.String ) -> 깦
+	[dll-runner]ClassName.Class1::뼫[2]( [mscorlib]System.Byte[], [mscorlib]System.String ) -> 깦
+	[dll-runner]ClassName.Class1::뼫[1]( [mscorlib]System.Byte[] ) -> 깦
+	[dll-runner]ClassName.Class1::뽇[1]( [mscorlib]System.Byte[] ) -> 긫
+
+	[dll-runner]ClassName.Class1::LoadLibrary[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[dll-runner]ClassName.Class1::GetProcAddress[2]( [mscorlib]System.IntPtr, [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[dll-runner]ClassName.Class1::Main[0]( ) skipped:  KeepPublicApi option in configuration
+	[dll-runner]ClassName.Class1::.ctor[0]( ) skipped:  special name
+	[dll-runner]ClassName.Class1::.cctor[0]( ) skipped:  special name
+
+	System.UInt32 [dll-runner]System.UInt32 ClassName.Class1::뼫 -> 깦
+	System.UInt32 [dll-runner]System.UInt32 ClassName.Class1::뽇 -> 긫
+}
+
+[dll-runner]ClassName.Class1/clsh skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/clsh::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/clsh::Invoke[1]( [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/clsh::BeginInvoke[3]( [mscorlib]System.IntPtr, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/clsh::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]ClassName.Class1/frlb skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/frlb::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/frlb::Invoke[1]( [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/frlb::BeginInvoke[3]( [mscorlib]System.IntPtr, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/frlb::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]ClassName.Class1/mpvfl skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/mpvfl::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/mpvfl::Invoke[5]( [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/mpvfl::BeginInvoke[7]( [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.IntPtr, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/mpvfl::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]ClassName.Class1/crtflmp skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/crtflmp::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/crtflmp::Invoke[6]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.String ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/crtflmp::BeginInvoke[8]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.String, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/crtflmp::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]ClassName.Class1/crtfla skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/crtfla::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/crtfla::Invoke[7]( [mscorlib]System.String, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/crtfla::BeginInvoke[9]( [mscorlib]System.String, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.IntPtr, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/crtfla::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]ClassName.Class1/getmodinf skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/getmodinf::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/getmodinf::Invoke[4]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [dll-runner]MODULEINFO&, [mscorlib]System.UInt32 ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/getmodinf::BeginInvoke[6]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [dll-runner]MODULEINFO&, [mscorlib]System.UInt32, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/getmodinf::EndInvoke[2]( [dll-runner]MODULEINFO&, [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]ClassName.Class1/getmodh skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/getmodh::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/getmodh::Invoke[1]( [mscorlib]System.String ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/getmodh::BeginInvoke[3]( [mscorlib]System.String, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/getmodh::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]ClassName.Class1/getprc skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/getprc::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/getprc::Invoke[0]( ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/getprc::BeginInvoke[2]( [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/getprc::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]ClassName.Class1/mvmem skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/mvmem::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/mvmem::Invoke[3]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.UInt32 ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/mvmem::BeginInvoke[5]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/mvmem::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]ClassName.Class1/vproc skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/vproc::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/vproc::Invoke[4]( [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.UInt32& ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/vproc::BeginInvoke[6]( [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.UInt32&, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/vproc::EndInvoke[2]( [mscorlib]System.UInt32&, [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]ClassName.Class1/mvmem2 skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/mvmem2::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/mvmem2::Invoke[3]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.Int32 ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/mvmem2::BeginInvoke[5]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.Int32, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/mvmem2::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]ClassName.Class1/vproc2 skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/vproc2::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/vproc2::Invoke[4]( [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/vproc2::BeginInvoke[6]( [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.IntPtr, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/vproc2::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]ClassName.Class1/svmjclwokj skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/svmjclwokj::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/svmjclwokj::Invoke[4]( [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.UInt32 ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/svmjclwokj::BeginInvoke[6]( [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/svmjclwokj::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]ClassName.Class1/sycqcsrzii skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/sycqcsrzii::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/sycqcsrzii::Invoke[2]( [mscorlib]System.IntPtr, [mscorlib]System.UInt32 ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/sycqcsrzii::BeginInvoke[4]( [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/sycqcsrzii::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+[dll-runner]ClassName.Class1/arvbgybail skipped:  KeepPublicApi option in configuration
+{
+
+	[dll-runner]ClassName.Class1/arvbgybail::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/arvbgybail::Invoke[6]( [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32& ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/arvbgybail::BeginInvoke[8]( [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.IntPtr, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32&, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[dll-runner]ClassName.Class1/arvbgybail::EndInvoke[2]( [mscorlib]System.UInt32&, [mscorlib]System.IAsyncResult ) skipped:  runtime method
+}
+
+Renamed Resources:
+
+
+Skipped Resources:
+

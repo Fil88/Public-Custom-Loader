@@ -1,0 +1,8 @@
+C:\Users\fmariani1\source\repos\QueueUserAPC\QueueUserAPC\bin\x64\Release\QueueUserAPC.exe.config
+C:\Users\fmariani1\source\repos\QueueUserAPC\QueueUserAPC\bin\x64\Release\QueueUserAPC.exe
+C:\Users\fmariani1\source\repos\QueueUserAPC\QueueUserAPC\bin\x64\Release\QueueUserAPC.pdb
+C:\Users\fmariani1\source\repos\QueueUserAPC\QueueUserAPC\obj\x64\Release\QueueUserAPC.csproj.AssemblyReference.cache
+C:\Users\fmariani1\source\repos\QueueUserAPC\QueueUserAPC\obj\x64\Release\QueueUserAPC.csproj.SuggestedBindingRedirects.cache
+C:\Users\fmariani1\source\repos\QueueUserAPC\QueueUserAPC\obj\x64\Release\QueueUserAPC.csproj.CoreCompileInputs.cache
+C:\Users\fmariani1\source\repos\QueueUserAPC\QueueUserAPC\obj\x64\Release\QueueUserAPC.exe
+C:\Users\fmariani1\source\repos\QueueUserAPC\QueueUserAPC\obj\x64\Release\QueueUserAPC.pdb

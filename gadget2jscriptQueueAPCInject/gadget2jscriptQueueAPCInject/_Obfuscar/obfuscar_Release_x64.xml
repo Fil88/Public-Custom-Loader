@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Obfuscator>
+  <Var name="InPath" value="bin\x64\Release\net6.0\" />
+  <Var name="OutPath" value="bin\x64\Release\net6.0\\Out" />
+  <Include path="_Obfuscar\obfuscar.xml" />
+</Obfuscator>

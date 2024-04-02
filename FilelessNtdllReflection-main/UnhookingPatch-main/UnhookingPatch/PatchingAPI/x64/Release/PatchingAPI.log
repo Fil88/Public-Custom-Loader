@@ -1,0 +1,10 @@
+﻿  PatchingAPI.cpp
+C:\Users\fmariani1\Desktop\UnhookingPatch-main\UnhookingPatch\PatchingAPI\PatchingAPI.cpp(188,21): warning C4244: 'inizializzazione': conversione da 'WORD' a 'BYTE'. Possibile perdita di dati.
+C:\Users\fmariani1\Desktop\UnhookingPatch-main\UnhookingPatch\PatchingAPI\PatchingAPI.cpp(323,12): warning C4101: 'hThread': variabile locale senza riferimenti
+  Generazione codice in corso...
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\fmariani1\Desktop\UnhookingPatch-main\UnhookingPatch\PatchingAPI\PatchingAPI.cpp(181): warning C4715: 'GetsyscallInstr': non tutti i percorsi di controllo restituiscono un valore
+C:\Users\fmariani1\Desktop\UnhookingPatch-main\UnhookingPatch\PatchingAPI\PatchingAPI.cpp(135): warning C4715: 'GetsyscallNum': non tutti i percorsi di controllo restituiscono un valore
+  All 8 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generazione codice terminata
+  PatchingAPI.vcxproj -> C:\Users\fmariani1\Desktop\UnhookingPatch-main\UnhookingPatch\PatchingAPI\x64\Release\PatchingAPI.exe

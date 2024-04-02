@@ -1,0 +1,15 @@
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\bin\x64\Release\net6.0\gadget-js-inject-Net.deps.json
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\bin\x64\Release\net6.0\gadget-js-inject-Net.dll
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\bin\x64\Release\net6.0\gadget-js-inject-Net.pdb
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\obj\x64\Release\net6.0\gadget-js-inject-Net.csproj.AssemblyReference.cache
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\obj\x64\Release\net6.0\gadget-js-inject-Net.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\obj\x64\Release\net6.0\gadget-js-inject-Net.AssemblyInfoInputs.cache
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\obj\x64\Release\net6.0\gadget-js-inject-Net.AssemblyInfo.cs
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\obj\x64\Release\net6.0\gadget-js-inject-Net.csproj.CoreCompileInputs.cache
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\obj\x64\Release\net6.0\gadget-js-inject-Net.dll
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\obj\x64\Release\net6.0\refint\gadget-js-inject-Net.dll
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\obj\x64\Release\net6.0\gadget-js-inject-Net.pdb
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\obj\x64\Release\net6.0\ref\gadget-js-inject-Net.dll
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\bin\x64\Release\net6.0\gadget-js-inject-Net.exe
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\bin\x64\Release\net6.0\gadget-js-inject-Net.runtimeconfig.json
+C:\Users\fmariani1\source\repos\gadget-js-inject-Net\gadget-js-inject-Net\obj\x64\Release\net6.0\gadget-js-inject-Net.genruntimeconfig.cache

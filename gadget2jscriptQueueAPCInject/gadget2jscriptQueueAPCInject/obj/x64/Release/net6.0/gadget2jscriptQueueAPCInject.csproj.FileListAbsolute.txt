@@ -1,0 +1,12 @@
+C:\Users\fmariani1\source\repos\gadget2jscriptQueueAPCInject\gadget2jscriptQueueAPCInject\bin\x64\Release\net6.0\gadget2jscriptQueueAPCInject.deps.json
+C:\Users\fmariani1\source\repos\gadget2jscriptQueueAPCInject\gadget2jscriptQueueAPCInject\bin\x64\Release\net6.0\gadget2jscriptQueueAPCInject.dll
+C:\Users\fmariani1\source\repos\gadget2jscriptQueueAPCInject\gadget2jscriptQueueAPCInject\bin\x64\Release\net6.0\gadget2jscriptQueueAPCInject.pdb
+C:\Users\fmariani1\source\repos\gadget2jscriptQueueAPCInject\gadget2jscriptQueueAPCInject\obj\x64\Release\net6.0\gadget2jscriptQueueAPCInject.csproj.AssemblyReference.cache
+C:\Users\fmariani1\source\repos\gadget2jscriptQueueAPCInject\gadget2jscriptQueueAPCInject\obj\x64\Release\net6.0\gadget2jscriptQueueAPCInject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmariani1\source\repos\gadget2jscriptQueueAPCInject\gadget2jscriptQueueAPCInject\obj\x64\Release\net6.0\gadget2jscriptQueueAPCInject.AssemblyInfoInputs.cache
+C:\Users\fmariani1\source\repos\gadget2jscriptQueueAPCInject\gadget2jscriptQueueAPCInject\obj\x64\Release\net6.0\gadget2jscriptQueueAPCInject.AssemblyInfo.cs
+C:\Users\fmariani1\source\repos\gadget2jscriptQueueAPCInject\gadget2jscriptQueueAPCInject\obj\x64\Release\net6.0\gadget2jscriptQueueAPCInject.csproj.CoreCompileInputs.cache
+C:\Users\fmariani1\source\repos\gadget2jscriptQueueAPCInject\gadget2jscriptQueueAPCInject\obj\x64\Release\net6.0\gadget2jscriptQueueAPCInject.dll
+C:\Users\fmariani1\source\repos\gadget2jscriptQueueAPCInject\gadget2jscriptQueueAPCInject\obj\x64\Release\net6.0\refint\gadget2jscriptQueueAPCInject.dll
+C:\Users\fmariani1\source\repos\gadget2jscriptQueueAPCInject\gadget2jscriptQueueAPCInject\obj\x64\Release\net6.0\gadget2jscriptQueueAPCInject.pdb
+C:\Users\fmariani1\source\repos\gadget2jscriptQueueAPCInject\gadget2jscriptQueueAPCInject\obj\x64\Release\net6.0\ref\gadget2jscriptQueueAPCInject.dll

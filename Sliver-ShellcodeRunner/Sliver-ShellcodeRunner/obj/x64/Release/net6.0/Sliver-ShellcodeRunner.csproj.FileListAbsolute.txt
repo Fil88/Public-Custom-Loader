@@ -1,0 +1,12 @@
+C:\Users\fmariani1\source\repos\Sliver-ShellcodeRunner\Sliver-ShellcodeRunner\obj\x64\Release\net6.0\Sliver-ShellcodeRunner.csproj.AssemblyReference.cache
+C:\Users\fmariani1\source\repos\Sliver-ShellcodeRunner\Sliver-ShellcodeRunner\obj\x64\Release\net6.0\Sliver-ShellcodeRunner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmariani1\source\repos\Sliver-ShellcodeRunner\Sliver-ShellcodeRunner\obj\x64\Release\net6.0\Sliver-ShellcodeRunner.AssemblyInfoInputs.cache
+C:\Users\fmariani1\source\repos\Sliver-ShellcodeRunner\Sliver-ShellcodeRunner\obj\x64\Release\net6.0\Sliver-ShellcodeRunner.AssemblyInfo.cs
+C:\Users\fmariani1\source\repos\Sliver-ShellcodeRunner\Sliver-ShellcodeRunner\obj\x64\Release\net6.0\Sliver-ShellcodeRunner.csproj.CoreCompileInputs.cache
+C:\Users\fmariani1\source\repos\Sliver-ShellcodeRunner\Sliver-ShellcodeRunner\bin\x64\Release\net6.0\Sliver-ShellcodeRunner.deps.json
+C:\Users\fmariani1\source\repos\Sliver-ShellcodeRunner\Sliver-ShellcodeRunner\bin\x64\Release\net6.0\Sliver-ShellcodeRunner.dll
+C:\Users\fmariani1\source\repos\Sliver-ShellcodeRunner\Sliver-ShellcodeRunner\bin\x64\Release\net6.0\Sliver-ShellcodeRunner.pdb
+C:\Users\fmariani1\source\repos\Sliver-ShellcodeRunner\Sliver-ShellcodeRunner\obj\x64\Release\net6.0\Sliver-ShellcodeRunner.dll
+C:\Users\fmariani1\source\repos\Sliver-ShellcodeRunner\Sliver-ShellcodeRunner\obj\x64\Release\net6.0\refint\Sliver-ShellcodeRunner.dll
+C:\Users\fmariani1\source\repos\Sliver-ShellcodeRunner\Sliver-ShellcodeRunner\obj\x64\Release\net6.0\Sliver-ShellcodeRunner.pdb
+C:\Users\fmariani1\source\repos\Sliver-ShellcodeRunner\Sliver-ShellcodeRunner\obj\x64\Release\net6.0\ref\Sliver-ShellcodeRunner.dll

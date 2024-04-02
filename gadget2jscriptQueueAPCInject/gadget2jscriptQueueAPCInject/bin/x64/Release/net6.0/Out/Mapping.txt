@@ -1,0 +1,177 @@
+Renamed Types:
+
+[gadget2jscriptQueueAPCInject]System.Runtime.CompilerServices.NullableAttribute -> [gadget2jscriptQueueAPCInject]뜒.뜴
+{
+
+	[gadget2jscriptQueueAPCInject]System.Runtime.CompilerServices.NullableAttribute::.ctor[1]( [System.Runtime]System.Byte ) skipped:  special name
+	[gadget2jscriptQueueAPCInject]System.Runtime.CompilerServices.NullableAttribute::.ctor[1]( [System.Runtime]System.Byte[] ) skipped:  special name
+
+	System.Byte[] [gadget2jscriptQueueAPCInject]System.Byte[] System.Runtime.CompilerServices.NullableAttribute::NullableFlags -> 뜒
+}
+
+[gadget2jscriptQueueAPCInject]System.Runtime.CompilerServices.NullableContextAttribute -> [gadget2jscriptQueueAPCInject]뜒.뜛
+{
+
+	[gadget2jscriptQueueAPCInject]System.Runtime.CompilerServices.NullableContextAttribute::.ctor[1]( [System.Runtime]System.Byte ) skipped:  special name
+
+	System.Byte [gadget2jscriptQueueAPCInject]System.Byte System.Runtime.CompilerServices.NullableContextAttribute::Flag -> 뜴
+}
+
+[gadget2jscriptQueueAPCInject]Microsoft.CodeAnalysis.EmbeddedAttribute -> [gadget2jscriptQueueAPCInject]뜒.뜒
+{
+
+	[gadget2jscriptQueueAPCInject]Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor[0]( ) skipped:  special name
+}
+
+Skipped Types:
+
+[gadget2jscriptQueueAPCInject]Payload skipped:  KeepPublicApi option in configuration
+{
+
+	[gadget2jscriptQueueAPCInject]Payload::.ctor[0]( ) skipped:  special name
+	[gadget2jscriptQueueAPCInject]Payload::Run[1]( [System.Runtime]System.Byte[] ) skipped:  KeepPublicApi option in configuration
+	[gadget2jscriptQueueAPCInject]Payload::GetShellcode[1]( [System.Runtime]System.String ) skipped:  KeepPublicApi option in configuration
+	[gadget2jscriptQueueAPCInject]Payload::OpenThread[3]( [gadget2jscriptQueueAPCInject]Payload/ThreadAccess, [System.Runtime]System.Boolean, [System.Runtime]System.Int32 ) skipped:  KeepPublicApi option in configuration
+	[gadget2jscriptQueueAPCInject]Payload::WriteProcessMemory[5]( [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr, [System.Runtime]System.Byte[], [System.Runtime]System.Int32, [System.Runtime]System.IntPtr& ) skipped:  KeepPublicApi option in configuration
+	[gadget2jscriptQueueAPCInject]Payload::QueueUserAPC[3]( [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr ) skipped:  KeepPublicApi option in configuration
+	[gadget2jscriptQueueAPCInject]Payload::VirtualAlloc[4]( [System.Runtime]System.UInt32, [System.Runtime]System.Int32, [System.Runtime]System.UInt32, [System.Runtime]System.UInt32 ) skipped:  KeepPublicApi option in configuration
+	[gadget2jscriptQueueAPCInject]Payload::VirtualAllocEx[5]( [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr, [System.Runtime]System.Int32, [System.Runtime]System.UInt32, [System.Runtime]System.UInt32 ) skipped:  KeepPublicApi option in configuration
+	[gadget2jscriptQueueAPCInject]Payload::OpenProcess[3]( [gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags, [System.Runtime]System.Boolean, [System.Runtime]System.Int32 ) skipped:  KeepPublicApi option in configuration
+	[gadget2jscriptQueueAPCInject]Payload::InitializeProcThreadAttributeList[4]( [System.Runtime]System.IntPtr, [System.Runtime]System.Int32, [System.Runtime]System.Int32, [System.Runtime]System.IntPtr& ) skipped:  KeepPublicApi option in configuration
+	[gadget2jscriptQueueAPCInject]Payload::UpdateProcThreadAttribute[7]( [System.Runtime]System.IntPtr, [System.Runtime]System.UInt32, [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr ) skipped:  KeepPublicApi option in configuration
+	[gadget2jscriptQueueAPCInject]Payload::CreateProcess[10]( [System.Runtime]System.String, [System.Runtime]System.String, [gadget2jscriptQueueAPCInject]Payload/SECURITY_ATTRIBUTES&, [gadget2jscriptQueueAPCInject]Payload/SECURITY_ATTRIBUTES&, [System.Runtime]System.Boolean, [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags, [System.Runtime]System.IntPtr, [System.Runtime]System.String, [gadget2jscriptQueueAPCInject]Payload/STARTUPINFOEX&, [gadget2jscriptQueueAPCInject]Payload/PROCESS_INFORMATION& ) skipped:  KeepPublicApi option in configuration
+	[gadget2jscriptQueueAPCInject]Payload::ResumeThread[1]( [System.Runtime]System.IntPtr ) skipped:  KeepPublicApi option in configuration
+	[gadget2jscriptQueueAPCInject]Payload::SuspendThread[1]( [System.Runtime]System.IntPtr ) skipped:  KeepPublicApi option in configuration
+	[gadget2jscriptQueueAPCInject]Payload::VirtualProtectEx[5]( [System.Runtime]System.IntPtr, [System.Runtime]System.IntPtr, [System.Runtime]System.Int32, [System.Runtime]System.UInt32, [System.Runtime]System.UInt32& ) skipped:  KeepPublicApi option in configuration
+	[gadget2jscriptQueueAPCInject]Payload::.cctor[0]( ) skipped:  special name
+
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload::MEM_COMMIT -> 뜛
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload::PAGE_READWRITE -> 뜚
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload::PAGE_EXECUTE_READ -> 뛀
+}
+
+[gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags skipped:  KeepPublicApi option in configuration
+{
+
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload/ProcessAccessFlags::value__ skipped:  special name
+	Payload/ProcessAccessFlags [gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags Payload/ProcessAccessFlags::All skipped:  KeepPublicApi option in configuration
+	Payload/ProcessAccessFlags [gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags Payload/ProcessAccessFlags::Terminate skipped:  KeepPublicApi option in configuration
+	Payload/ProcessAccessFlags [gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags Payload/ProcessAccessFlags::CreateThread skipped:  KeepPublicApi option in configuration
+	Payload/ProcessAccessFlags [gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags Payload/ProcessAccessFlags::VirtualMemoryOperation skipped:  KeepPublicApi option in configuration
+	Payload/ProcessAccessFlags [gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags Payload/ProcessAccessFlags::VirtualMemoryRead skipped:  KeepPublicApi option in configuration
+	Payload/ProcessAccessFlags [gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags Payload/ProcessAccessFlags::VirtualMemoryWrite skipped:  KeepPublicApi option in configuration
+	Payload/ProcessAccessFlags [gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags Payload/ProcessAccessFlags::DuplicateHandle skipped:  KeepPublicApi option in configuration
+	Payload/ProcessAccessFlags [gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags Payload/ProcessAccessFlags::CreateProcess skipped:  KeepPublicApi option in configuration
+	Payload/ProcessAccessFlags [gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags Payload/ProcessAccessFlags::SetQuota skipped:  KeepPublicApi option in configuration
+	Payload/ProcessAccessFlags [gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags Payload/ProcessAccessFlags::SetInformation skipped:  KeepPublicApi option in configuration
+	Payload/ProcessAccessFlags [gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags Payload/ProcessAccessFlags::QueryInformation skipped:  KeepPublicApi option in configuration
+	Payload/ProcessAccessFlags [gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags Payload/ProcessAccessFlags::QueryLimitedInformation skipped:  KeepPublicApi option in configuration
+	Payload/ProcessAccessFlags [gadget2jscriptQueueAPCInject]Payload/ProcessAccessFlags Payload/ProcessAccessFlags::Synchronize skipped:  KeepPublicApi option in configuration
+}
+
+[gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags skipped:  KeepPublicApi option in configuration
+{
+
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload/ProcessCreationFlags::value__ skipped:  special name
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::ZERO_FLAG skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::CREATE_BREAKAWAY_FROM_JOB skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::CREATE_DEFAULT_ERROR_MODE skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::CREATE_NEW_CONSOLE skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::CREATE_NEW_PROCESS_GROUP skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::CREATE_NO_WINDOW skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::CREATE_PROTECTED_PROCESS skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::CREATE_PRESERVE_CODE_AUTHZ_LEVEL skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::CREATE_SEPARATE_WOW_VDM skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::CREATE_SHARED_WOW_VDM skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::CREATE_SUSPENDED skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::CREATE_UNICODE_ENVIRONMENT skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::DEBUG_ONLY_THIS_PROCESS skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::DEBUG_PROCESS skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::DETACHED_PROCESS skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::EXTENDED_STARTUPINFO_PRESENT skipped:  KeepPublicApi option in configuration
+	Payload/ProcessCreationFlags [gadget2jscriptQueueAPCInject]Payload/ProcessCreationFlags Payload/ProcessCreationFlags::INHERIT_PARENT_AFFINITY skipped:  KeepPublicApi option in configuration
+}
+
+[gadget2jscriptQueueAPCInject]Payload/PROCESS_INFORMATION skipped:  KeepPublicApi option in configuration
+{
+
+	System.IntPtr [gadget2jscriptQueueAPCInject]System.IntPtr Payload/PROCESS_INFORMATION::hProcess skipped:  KeepPublicApi option in configuration
+	System.IntPtr [gadget2jscriptQueueAPCInject]System.IntPtr Payload/PROCESS_INFORMATION::hThread skipped:  KeepPublicApi option in configuration
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload/PROCESS_INFORMATION::dwProcessId skipped:  KeepPublicApi option in configuration
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload/PROCESS_INFORMATION::dwThreadId skipped:  KeepPublicApi option in configuration
+}
+
+[gadget2jscriptQueueAPCInject]Payload/STARTUPINFO skipped:  KeepPublicApi option in configuration
+{
+
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload/STARTUPINFO::cb skipped:  KeepPublicApi option in configuration
+	System.String [gadget2jscriptQueueAPCInject]System.String Payload/STARTUPINFO::lpReserved skipped:  KeepPublicApi option in configuration
+	System.String [gadget2jscriptQueueAPCInject]System.String Payload/STARTUPINFO::lpDesktop skipped:  KeepPublicApi option in configuration
+	System.String [gadget2jscriptQueueAPCInject]System.String Payload/STARTUPINFO::lpTitle skipped:  KeepPublicApi option in configuration
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload/STARTUPINFO::dwX skipped:  KeepPublicApi option in configuration
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload/STARTUPINFO::dwY skipped:  KeepPublicApi option in configuration
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload/STARTUPINFO::dwXSize skipped:  KeepPublicApi option in configuration
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload/STARTUPINFO::dwYSize skipped:  KeepPublicApi option in configuration
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload/STARTUPINFO::dwXCountChars skipped:  KeepPublicApi option in configuration
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload/STARTUPINFO::dwYCountChars skipped:  KeepPublicApi option in configuration
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload/STARTUPINFO::dwFillAttribute skipped:  KeepPublicApi option in configuration
+	System.UInt32 [gadget2jscriptQueueAPCInject]System.UInt32 Payload/STARTUPINFO::dwFlags skipped:  KeepPublicApi option in configuration
+	System.Int16 [gadget2jscriptQueueAPCInject]System.Int16 Payload/STARTUPINFO::wShowWindow skipped:  KeepPublicApi option in configuration
+	System.Int16 [gadget2jscriptQueueAPCInject]System.Int16 Payload/STARTUPINFO::cbReserved2 skipped:  KeepPublicApi option in configuration
+	System.IntPtr [gadget2jscriptQueueAPCInject]System.IntPtr Payload/STARTUPINFO::lpReserved2 skipped:  KeepPublicApi option in configuration
+	System.IntPtr [gadget2jscriptQueueAPCInject]System.IntPtr Payload/STARTUPINFO::hStdInput skipped:  KeepPublicApi option in configuration
+	System.IntPtr [gadget2jscriptQueueAPCInject]System.IntPtr Payload/STARTUPINFO::hStdOutput skipped:  KeepPublicApi option in configuration
+	System.IntPtr [gadget2jscriptQueueAPCInject]System.IntPtr Payload/STARTUPINFO::hStdError skipped:  KeepPublicApi option in configuration
+}
+
+[gadget2jscriptQueueAPCInject]Payload/ThreadAccess skipped:  KeepPublicApi option in configuration
+{
+
+	System.Int32 [gadget2jscriptQueueAPCInject]System.Int32 Payload/ThreadAccess::value__ skipped:  special name
+	Payload/ThreadAccess [gadget2jscriptQueueAPCInject]Payload/ThreadAccess Payload/ThreadAccess::TERMINATE skipped:  KeepPublicApi option in configuration
+	Payload/ThreadAccess [gadget2jscriptQueueAPCInject]Payload/ThreadAccess Payload/ThreadAccess::SUSPEND_RESUME skipped:  KeepPublicApi option in configuration
+	Payload/ThreadAccess [gadget2jscriptQueueAPCInject]Payload/ThreadAccess Payload/ThreadAccess::GET_CONTEXT skipped:  KeepPublicApi option in configuration
+	Payload/ThreadAccess [gadget2jscriptQueueAPCInject]Payload/ThreadAccess Payload/ThreadAccess::SET_CONTEXT skipped:  KeepPublicApi option in configuration
+	Payload/ThreadAccess [gadget2jscriptQueueAPCInject]Payload/ThreadAccess Payload/ThreadAccess::SET_INFORMATION skipped:  KeepPublicApi option in configuration
+	Payload/ThreadAccess [gadget2jscriptQueueAPCInject]Payload/ThreadAccess Payload/ThreadAccess::QUERY_INFORMATION skipped:  KeepPublicApi option in configuration
+	Payload/ThreadAccess [gadget2jscriptQueueAPCInject]Payload/ThreadAccess Payload/ThreadAccess::SET_THREAD_TOKEN skipped:  KeepPublicApi option in configuration
+	Payload/ThreadAccess [gadget2jscriptQueueAPCInject]Payload/ThreadAccess Payload/ThreadAccess::IMPERSONATE skipped:  KeepPublicApi option in configuration
+	Payload/ThreadAccess [gadget2jscriptQueueAPCInject]Payload/ThreadAccess Payload/ThreadAccess::DIRECT_IMPERSONATION skipped:  KeepPublicApi option in configuration
+}
+
+[gadget2jscriptQueueAPCInject]Payload/STARTUPINFOEX skipped:  KeepPublicApi option in configuration
+{
+
+	Payload/STARTUPINFO [gadget2jscriptQueueAPCInject]Payload/STARTUPINFO Payload/STARTUPINFOEX::StartupInfo skipped:  KeepPublicApi option in configuration
+	System.IntPtr [gadget2jscriptQueueAPCInject]System.IntPtr Payload/STARTUPINFOEX::lpAttributeList skipped:  KeepPublicApi option in configuration
+}
+
+[gadget2jscriptQueueAPCInject]Payload/SECURITY_ATTRIBUTES skipped:  KeepPublicApi option in configuration
+{
+
+	System.Int32 [gadget2jscriptQueueAPCInject]System.Int32 Payload/SECURITY_ATTRIBUTES::nLength skipped:  KeepPublicApi option in configuration
+	System.IntPtr [gadget2jscriptQueueAPCInject]System.IntPtr Payload/SECURITY_ATTRIBUTES::lpSecurityDescriptor skipped:  KeepPublicApi option in configuration
+	System.Int32 [gadget2jscriptQueueAPCInject]System.Int32 Payload/SECURITY_ATTRIBUTES::bInheritHandle skipped:  KeepPublicApi option in configuration
+}
+
+[gadget2jscriptQueueAPCInject]Payload/ProcThreadAttribute skipped:  KeepPublicApi option in configuration
+{
+
+	System.Int32 [gadget2jscriptQueueAPCInject]System.Int32 Payload/ProcThreadAttribute::value__ skipped:  special name
+	Payload/ProcThreadAttribute [gadget2jscriptQueueAPCInject]Payload/ProcThreadAttribute Payload/ProcThreadAttribute::MITIGATION_POLICY skipped:  KeepPublicApi option in configuration
+	Payload/ProcThreadAttribute [gadget2jscriptQueueAPCInject]Payload/ProcThreadAttribute Payload/ProcThreadAttribute::PARENT_PROCESS skipped:  KeepPublicApi option in configuration
+}
+
+[gadget2jscriptQueueAPCInject]Payload/BinarySignaturePolicy skipped:  KeepPublicApi option in configuration
+{
+
+	System.UInt64 [gadget2jscriptQueueAPCInject]System.UInt64 Payload/BinarySignaturePolicy::value__ skipped:  special name
+	Payload/BinarySignaturePolicy [gadget2jscriptQueueAPCInject]Payload/BinarySignaturePolicy Payload/BinarySignaturePolicy::BLOCK_NON_MICROSOFT_BINARIES_ALWAYS_ON skipped:  KeepPublicApi option in configuration
+	Payload/BinarySignaturePolicy [gadget2jscriptQueueAPCInject]Payload/BinarySignaturePolicy Payload/BinarySignaturePolicy::BLOCK_NON_MICROSOFT_BINARIES_ALLOW_STORE skipped:  KeepPublicApi option in configuration
+}
+
+Renamed Resources:
+
+
+Skipped Resources:
+

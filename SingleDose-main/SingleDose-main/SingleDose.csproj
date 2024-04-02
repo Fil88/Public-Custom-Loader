@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5FAC3991-D4FD-4227-B73D-BEE34EB89987}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SingleDose</RootNamespace>
+    <AssemblyName>SingleDose</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Invokes\Comdlg32\ChooseColor.cs" />
+    <Compile Include="Invokes\Comdlg32\GetOpenFileName.cs" />
+    <Compile Include="Invokes\Crypt32\CertEnumSystemStore.cs" />
+    <Compile Include="Invokes\DInvoke.cs" />
+    <Compile Include="Invokes\IInvoke.cs" />
+    <Compile Include="Invokes\Imagehlp\ImageGetDigestStream.cs" />
+    <Compile Include="Invokes\Kernel32\BeginUpdateResource.cs" />
+    <Compile Include="Invokes\Kernel32\CloseHandle.cs" />
+    <Compile Include="Invokes\Kernel32\CloseThreadpoolTimer.cs" />
+    <Compile Include="Invokes\Kernel32\CloseThreadpoolWork.cs" />
+    <Compile Include="Invokes\Kernel32\ConvertThreadToFiber.cs" />
+    <Compile Include="Invokes\Kernel32\CreateEvent.cs" />
+    <Compile Include="Invokes\Kernel32\CreateFiber.cs" />
+    <Compile Include="Invokes\Kernel32\CreateFile.cs" />
+    <Compile Include="Invokes\Kernel32\CreateProcess.cs" />
+    <Compile Include="Invokes\Kernel32\CreateRemoteThread.cs" />
+    <Compile Include="Invokes\Kernel32\CreateThread.cs" />
+    <Compile Include="Invokes\Kernel32\CreateThreadpoolTimer.cs" />
+    <Compile Include="Invokes\Kernel32\CreateThreadpoolWait.cs" />
+    <Compile Include="Invokes\Kernel32\CreateThreadpoolWork.cs" />
+    <Compile Include="Invokes\Kernel32\CreateWaitableTimer.cs" />
+    <Compile Include="Invokes\Kernel32\EndUpdateResource.cs" />
+    <Compile Include="Invokes\Kernel32\EnumDateFormatsEx.cs" />
+    <Compile Include="Invokes\Kernel32\FlsAlloc.cs" />
+    <Compile Include="Invokes\Kernel32\FlsSetValue.cs" />
+    <Compile Include="Invokes\Kernel32\GetCurrentThread.cs" />
+    <Compile Include="Invokes\Kernel32\GetModuleHandle.cs" />
+    <Compile Include="Invokes\Kernel32\GetProcAddress.cs" />
+    <Compile Include="Invokes\Kernel32\GetThreadContext.cs" />
+    <Compile Include="Invokes\Kernel32\OpenThread.cs" />
+    <Compile Include="Invokes\Kernel32\QueueUserAPC.cs" />
+    <Compile Include="Invokes\Kernel32\ReadProcessMemory.cs" />
+    <Compile Include="Invokes\Kernel32\ResumeThread.cs" />
+    <Compile Include="Invokes\Kernel32\SetThreadContext.cs" />
+    <Compile Include="Invokes\Kernel32\SetThreadpoolTimer.cs" />
+    <Compile Include="Invokes\Kernel32\SetThreadpoolWait.cs" />
+    <Compile Include="Invokes\Kernel32\SetWaitableTimer.cs" />
+    <Compile Include="Invokes\Kernel32\SleepEx.cs" />
+    <Compile Include="Invokes\Kernel32\SubmitThreadpoolWork.cs" />
+    <Compile Include="Invokes\Kernel32\SuspendThread.cs" />
+    <Compile Include="Invokes\Kernel32\SwitchToFiber.cs" />
+    <Compile Include="Invokes\Kernel32\UpdateResource.cs" />
+    <Compile Include="Invokes\Kernel32\VirtualAlloc.cs" />
+    <Compile Include="Invokes\Kernel32\VirtualAllocEx.cs" />
+    <Compile Include="Invokes\Kernel32\VirtualProtectEx.cs" />
+    <Compile Include="Invokes\Kernel32\WaitForSingleObject.cs" />
+    <Compile Include="Invokes\Kernel32\WaitForThreadpoolTimerCallbacks.cs" />
+    <Compile Include="Invokes\Kernel32\WaitForThreadpoolWorkCallbacks.cs" />
+    <Compile Include="Invokes\Kernel32\WriteProcessMemory_ByteArray.cs" />
+    <Compile Include="Invokes\Kernel32\WriteProcessMemory_IntPtr.cs" />
+    <Compile Include="Invokes\Ntdll\NtCreateSection.cs" />
+    <Compile Include="Invokes\Ntdll\NtMapViewOfSection.cs" />
+    <Compile Include="Invokes\Ntdll\NtQueryInformationProcess.cs" />
+    <Compile Include="Invokes\Ntdll\NtTestAlert.cs" />
+    <Compile Include="Invokes\Ntdll\RtlCreateUserThread.cs" />
+    <Compile Include="Invokes\ResUtils\ClusWorkerCreate.cs" />
+    <Compile Include="Invokes\ResUtils\ClusWorkerTerminateEx.cs" />
+    <Compile Include="Invokes\Setupapi\SetupCommitFileQueue.cs" />
+    <Compile Include="Invokes\Setupapi\SetupOpenFileQueue.cs" />
+    <Compile Include="Invokes\Setupapi\SetupQueueCopy.cs" />
+    <Compile Include="Invokes\User32\DispatchMessage.cs" />
+    <Compile Include="Invokes\User32\EnumChildWindows.cs" />
+    <Compile Include="Invokes\User32\EnumDesktops.cs" />
+    <Compile Include="Invokes\User32\EnumWindows.cs" />
+    <Compile Include="Invokes\User32\GetMessage.cs" />
+    <Compile Include="Invokes\User32\GetProcessWindowStation.cs" />
+    <Compile Include="Invokes\User32\GetTopWindow.cs" />
+    <Compile Include="Invokes\User32\SendMessage.cs" />
+    <Compile Include="Invokes\User32\SetTimer.cs" />
+    <Compile Include="Invokes\Verifier\VerifierEnumerateResource.cs" />
+    <Compile Include="Menus\MainMenu.cs" />
+    <Compile Include="Menus\SettingsMenu.cs" />
+    <Compile Include="Menus\TriggersMenu.cs" />
+    <Compile Include="Misc\Reflect.cs" />
+    <Compile Include="Misc\SDLog.cs" />
+    <Compile Include="Misc\Build.cs" />
+    <Compile Include="Misc\MemConfig.cs" />
+    <Compile Include="Misc\MiscFuncs.cs" />
+    <Compile Include="Misc\SDConsole.cs" />
+    <Compile Include="Misc\SDTabComplete.cs" />
+    <Compile Include="Misc\Shellcode.cs" />
+    <Compile Include="Misc\Tutorial.cs" />
+    <Compile Include="Misc\InvokeHandler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Techniques\Loaders\ClusWorkerCreate.cs" />
+    <Compile Include="Techniques\Common.cs" />
+    <Compile Include="Techniques\Injects\AddressOfEntryPoint.cs" />
+    <Compile Include="Techniques\Injects\CreateRemoteThread.cs" />
+    <Compile Include="Techniques\Injects\EarlyBirdQueueUserAPC.cs" />
+    <Compile Include="Techniques\Injects\KernelCallbackTable.cs" />
+    <Compile Include="Techniques\Injects\NtCreateSection.cs" />
+    <Compile Include="Techniques\Injects\PEResource.cs" />
+    <Compile Include="Techniques\Injects\SpawnThreadHijack.cs" />
+    <Compile Include="Techniques\Injects\SuspendQueueUserAPC.cs" />
+    <Compile Include="Techniques\Injects\SIR.cs" />
+    <Compile Include="Techniques\Loaders\CertEnumSystemStore.cs" />
+    <Compile Include="Techniques\Loaders\ChooseColor.cs" />
+    <Compile Include="Techniques\Loaders\CreateFiber.cs" />
+    <Compile Include="Techniques\Loaders\CreateThread.cs" />
+    <Compile Include="Techniques\Loaders\EnumChildWindows.cs" />
+    <Compile Include="Techniques\Loaders\EnumDateFormatsEx.cs" />
+    <Compile Include="Techniques\Loaders\EnumDesktops.cs" />
+    <Compile Include="Techniques\Loaders\EnumWindows.cs" />
+    <Compile Include="Techniques\Loaders\FlsSetValue.cs" />
+    <Compile Include="Techniques\Loaders\ImageGetDigest.cs" />
+    <Compile Include="Techniques\Loaders\NtTestAlert.cs" />
+    <Compile Include="Techniques\Loaders\GetOpenFilename.cs" />
+    <Compile Include="Techniques\Loaders\SetTimer.cs" />
+    <Compile Include="Techniques\Loaders\SetupCommitFileQueue.cs" />
+    <Compile Include="Techniques\Loaders\SetWaitableTimer.cs" />
+    <Compile Include="Techniques\Loaders\ThreadpoolTimer.cs" />
+    <Compile Include="Techniques\Loaders\ThreadpoolWait.cs" />
+    <Compile Include="Techniques\Loaders\ThreadpoolWork.cs" />
+    <Compile Include="Techniques\Loaders\VerifierEnumerateResource.cs" />
+    <Compile Include="Techniques\TechniqueInterface.cs" />
+    <Compile Include="Triggers\FileScan.cs" />
+    <Compile Include="Triggers\FileWatch.cs" />
+    <Compile Include="Triggers\ProcScan.cs" />
+    <Compile Include="Triggers\ProcWatch.cs" />
+    <Compile Include="Triggers\Timer.cs" />
+    <Compile Include="Triggers\TriggerInterface.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
